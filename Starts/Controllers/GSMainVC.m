@@ -9,6 +9,7 @@
 #import "GSMainVC.h"
 #import "GSLoginVC.h"
 #import "UIColor+hexColor.h"
+#import "UIView+GSLayout.h"
 
 @interface GSMainVC ()
 
@@ -40,6 +41,16 @@
   self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
   self.navigationController.navigationBar.barTintColor =
       [UIColor hexColor:0x3097FF];
+
+  self.title = @"GitHub Stars";
+
+  UIImageView *profileView = [[UIImageView alloc] init];
+  profileView.gsl_width = 24;
+  profileView.gsl_height = 24;
+  profileView.layer.cornerRadius = 12;
+  profileView.backgroundColor = [UIColor hexColor:0xeeeeee];
+  self.navigationItem.leftBarButtonItem =
+      [[UIBarButtonItem alloc] initWithCustomView:profileView];
 }
 
 @end

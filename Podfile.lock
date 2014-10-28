@@ -1,10 +1,10 @@
 PODS:
-  - Masonry (0.5.3)
+  - TKRoundedView (0.4)
 
 DEPENDENCIES:
-  - Masonry
+  - TKRoundedView (~> 0.4)
 
 SPEC CHECKSUMS:
-  Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
+  TKRoundedView: fdeca558383ca40438c0f278e310d2d883d6739f
 
 COCOAPODS: 0.34.4

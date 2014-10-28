@@ -4,7 +4,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Starts' do
-  pod 'Masonry'
+  pod 'TKRoundedView', '~> 0.4'
 end
 
 target 'StartsTests' do
