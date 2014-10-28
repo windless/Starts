@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GSLoginLayout.h"
 
-@interface GSLoginVC : UIViewController<UITextFieldDelegate>
-
-- (void)dismiss;
+@interface GSLoginVC
+    : UIViewController<UITextFieldDelegate, GSLoginLayoutDelegat>
 
 @end

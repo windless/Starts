@@ -17,6 +17,7 @@
 		7D3E7B6019FE34A2004161EA /* GSLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E7B5F19FE34A2004161EA /* GSLoginVC.m */; };
 		7DA95F9419FF77B7003C49E3 /* UIView+GSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA95F9219FF77B7003C49E3 /* UIView+GSLayout.m */; };
 		7DA95F9719FF77CD003C49E3 /* GSActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA95F9519FF77CD003C49E3 /* GSActivityIndicatorView.m */; };
+		7DA95F9B19FF8669003C49E3 /* GSLoginLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA95F9A19FF8669003C49E3 /* GSLoginLayout.m */; };
 		A8A42E6056D2B08D1876CF59 /* libPods-Starts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F9E04E20B37CF5A22EE2D4 /* libPods-Starts.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		7DA95F9319FF77B7003C49E3 /* UIView+GSLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GSLayout.h"; sourceTree = "<group>"; };
 		7DA95F9519FF77CD003C49E3 /* GSActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSActivityIndicatorView.m; sourceTree = "<group>"; };
 		7DA95F9619FF77CD003C49E3 /* GSActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSActivityIndicatorView.h; sourceTree = "<group>"; };
+		7DA95F9919FF8669003C49E3 /* GSLoginLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLoginLayout.h; sourceTree = "<group>"; };
+		7DA95F9A19FF8669003C49E3 /* GSLoginLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLoginLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 		7D03C0F819FE2E520007523E /* Starts */ = {
 			isa = PBXGroup;
 			children = (
+				7DA95F9819FF8656003C49E3 /* Layouts */,
 				7D03C11F19FE303D0007523E /* Controllers */,
 				7D03C12019FE303D0007523E /* Helpers */,
 				7D03C12119FE303D0007523E /* Models */,
@@ -181,6 +185,15 @@
 				7DA95F9619FF77CD003C49E3 /* GSActivityIndicatorView.h */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7DA95F9819FF8656003C49E3 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				7DA95F9919FF8669003C49E3 /* GSLoginLayout.h */,
+				7DA95F9A19FF8669003C49E3 /* GSLoginLayout.m */,
+			);
+			path = Layouts;
 			sourceTree = "<group>";
 		};
 		AC06F893739DBAA7D18078C8 /* Pods */ = {
@@ -333,6 +346,7 @@
 				7D3E7B6019FE34A2004161EA /* GSLoginVC.m in Sources */,
 				7D03C0FF19FE2E520007523E /* AppDelegate.m in Sources */,
 				7D03C0FC19FE2E520007523E /* main.m in Sources */,
+				7DA95F9B19FF8669003C49E3 /* GSLoginLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
